@@ -16,6 +16,17 @@ public class HomePage {
 	@FindBy(linkText="Organizations")
 	private WebElement orglnk;
 	
+	@FindBy(linkText = "Products")
+	private WebElement productlnk;
+	
+	public WebElement getProductlnk() {
+		return productlnk;
+	}
+
+	public void setProductlnk(WebElement productlnk) {
+		this.productlnk = productlnk;
+	}
+
 	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
 	private WebElement adminImg;
 	
