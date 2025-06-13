@@ -21,6 +21,10 @@ public class HomePage {
 	
 	@FindBy(xpath = "//img[@title='Products Settings']")
 	private WebElement ele3;
+
+	@FindBy(xpath = "//img[@title='Create Product...']")
+	private WebElement ele2;
+
 	
 	public WebElement getProductlnk() {
 		return productlnk;
